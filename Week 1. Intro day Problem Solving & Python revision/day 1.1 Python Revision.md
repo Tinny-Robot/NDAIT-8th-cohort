@@ -14,6 +14,15 @@ age = 25
 name = "John Doe"
 is_new = True
 ```
+## Lists and Dictionaries
+Lists and dictionaries are two fundamental data structures in Python. Lists are ordered collections of elements, while dictionaries are key-value pairs. Let's see some examples:
+
+**Code Example 4**:
+
+```python
+fruits = ["apple", "banana", "orange"]
+person = {"name": "John", "age": 30, "city": "New York"}
+```
 
 ## Control Flow Statements
 Control flow statements allow us to control the flow of execution in our programs. We have conditional statements like if-else and loops like for and while. Let's look at an example:
@@ -31,27 +40,6 @@ else:
 
 ```
 
-## Functions
-Functions in Python help us divide our code into reusable blocks. They improve code organization and reusability. Let's see how to define and call a function:
-
-**Code Example 3**:
-
-```python
-def greet(name):
-    print("Hello, " + name + "!")
-
-greet("Alice")
-```
-
-## Lists and Dictionaries
-Lists and dictionaries are two fundamental data structures in Python. Lists are ordered collections of elements, while dictionaries are key-value pairs. Let's see some examples:
-
-**Code Example 4**:
-
-```python
-fruits = ["apple", "banana", "orange"]
-person = {"name": "John", "age": 30, "city": "New York"}
-```
 
 ## File Handling
 Python provides convenient ways to read from and write to files. Let's see an example of reading and writing data to a file:
@@ -82,6 +70,48 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero")
 ```
+## Python Functions
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
+#### Creating a Function
+In Python a function is defined using the `def` keyword:
+
+```python
+def my_function():
+  print("Hello from a function")
+```
+
+#### Calling a Function
+
+To call a function, use the function name followed by parenthesis:
+```python
+def my_function():
+  print("Hello from a function")
+
+my_function()
+```
+#### Arguments
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+
+Example
+```python
+def my_function(fname):
+  print(fname + " AI")
+
+my_function("NCAIR")
+my_function("Nathaniel")
+my_function("Jacob")
+```
+_Arguments are often shortened to args in Python documentations._
+
+
 
 ## Modules and Packages
 Python offers a vast ecosystem of modules and packages that extend its capabilities. We can import and use them in our programs. Let's see an example of using the math module:
