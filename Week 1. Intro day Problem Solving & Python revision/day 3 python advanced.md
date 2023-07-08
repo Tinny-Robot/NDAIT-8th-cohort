@@ -36,7 +36,7 @@ Handling multiple exceptions with a single except block: Multiple exceptions can
 Using the else clause with try-except: The else clause is executed when no exceptions occur in the try block.
 ### Code Example:
 
-```python
+```python 
 try:
     result = 10 / 0
 except ZeroDivisionError:

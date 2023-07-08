@@ -1,0 +1,11 @@
+1. Generate a random number between a specified minimum and maximum value.
+2. Set the number of attempts to 0.
+3. Start a loop:
+   a. Prompt the player to enter a guess.
+   b. Increment the number of attempts by 1.
+   c. Compare the guess with the random number:
+      - If the guess is correct, display a success message and end the loop.
+      - If the guess is lower than the random number, display a "too low" message.
+      - If the guess is higher than the random number, display a "too high" message.
+   d. If the maximum number of attempts has been reached, display a failure message and end the loop.
+4. End the game.
