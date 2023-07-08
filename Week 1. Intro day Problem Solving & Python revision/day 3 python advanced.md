@@ -6,6 +6,16 @@ Advance Python Techniques
 Welcome to  Error Handling in Python!
 
 Error handling is essential for gracefully handling unexpected situations during program execution.
+
+```python
+>>>int("NCAIR")
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    int("erer")
+ValueError: invalid literal for int() with base 10: 'erer'
+```
+
+
 ## Introduction to Errors and Exceptions
 
 Syntax errors vs. exceptions: Syntax errors occur when the code violates the rules of the programming language, while exceptions are raised during the program's execution.
