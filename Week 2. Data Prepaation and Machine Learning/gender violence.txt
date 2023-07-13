@@ -1,0 +1,15 @@
+id: Represents the unique identifier for each individual.
+gender: Indicates the gender of the individual (e.g., female or male).
+age: Represents the age of the individual in years.
+education: Indicates the level of education completed by the individual (e.g., high school, college, or graduate school).
+income: Represents the income level of the individual (e.g., low or high).
+employment: Indicates the employment status of the individual (e.g., unemployed, employed, or self-employed).
+marital_status: Represents the marital status of the individual (e.g., single, married, or divorced).
+number_of_children: Indicates the number of children the individual has.
+household_size: Represents the size of the individual's household.
+location: Indicates the location of the individual's residence (e.g., urban, suburban, or rural).
+violence_type: Represents the type of violence experienced by the individual (e.g., physical, verbal, or sexual).
+violence_frequency: Indicates the frequency of violence incidents experienced by the individual (e.g., once a month or once a year).
+violence_severity: Represents the severity of the violence experienced by the individual (e.g., severe, moderate, or mild).
+Duration of Violence: Represents the duration of each violence incident in a continuous float format.
+Impact Score: Represents a numerical score indicating the impact or severity of the violence experienced by each individual.
